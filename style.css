@@ -1,72 +1,10 @@
-*{
-    margin: 0; padding: 0; box-sizing: border-box;
-}
-body{
-    background-color: #5F7C8A;
-}
-form{
-    background-color: white;
-    max-width: 500px;
-    width: 70%;
-    padding: 20px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-form h3{
-    text-align: left;
-    color: #5F7C8A;
-    font-family: 'Courier New', Courier, monospace;
-}
-form input[type=text],
-form input[type=password]{
-  width: 100%;
-  height: 45px;
-  border: 1px solid#ccc;
-  padding-left: 10px;
-  margin: 10px 0;
- 
-}
-form input[type=submit]{
-    width: 50%;
-    height: 40px;
-    cursor: pointer;
-    background: #5F7C8A;
-    color: white;
-    border: 0;
-    border-radius: 20px;
-    transition: 1s;
-    float: left;
-}
-form input[type=submit]:hover{
-    background-color: #4A5F6A;
-}
-form input[type=text]:focus{
-    outline: 0;
-}
-form input[type=password]:focus{
-    outline: 0;
-}
-form input[type=radio],
-form input[type=checkbox]{
-    width: 10%;
-    height: 15px;
-    border: 1px solid#ccc;
-    padding-left: 10px;
-    margin: 10px 0;
-}
-form input[type=reset]{
-    width: 50%;
-    height: 40px;
-    cursor: pointer;
-    background: #5F7C8A;
-    color: white;
-    border: 0;
-    border-radius: 20px;
-    transition: 1s;
-    float: left;
-}
-form input[type=submit]:hover{
-    background-color: #4A5F6A;
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap&#39';); 
+body { font: 12pt Arial; } 
+h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
+input[type=number] { font-size: 12pt; } 
+input[type=submit] {
+background-color: green;
+color: white;
+font-size: 12pt;
+padding: 5px;
 }
